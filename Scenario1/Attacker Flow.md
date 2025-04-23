@@ -3,7 +3,7 @@ flowchart LR
     A[GitHub Repos] --> B{CI/CD Pipeline GH Actions}
     A[Reconnaissance] -->|Identify target| B
     B[Reconnaissance] -->|Gather information| B
-    B[Weaponization] -->|Craft malicious payload| D
+    B[Weaponisation] -->|Craft malicious payload| D
     D[Delivery] -->|Send phishing email| D
     D[Delivery] -->|Trick user to download payload| D
     D[Exploitation] -->|Execute payload| D

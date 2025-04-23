@@ -8,7 +8,7 @@ The attacker conducts research to identify vulnerabilities and potential targets
 ```mermaid
 flowchart TD
     style Reconnaissance fill:#F4D03F,stroke:#000,stroke-width:2px
-    style Weaponization fill:#F5B041,stroke:#000,stroke-width:2px
+    style Weaponisation fill:#F5B041,stroke:#000,stroke-width:2px
     style Delivery fill:#EB984E,stroke:#000,stroke-width:2px
     style Exploitation fill:#E59866,stroke:#000,stroke-width:2px
     style Installation fill:#DC7633,stroke:#000,stroke-width:2px
@@ -16,8 +16,8 @@ flowchart TD
     style Actions_Objectives fill:#BA4A00,stroke:#000,stroke-width:2px
     style MITRE fill:#85C1E9,stroke:#000,stroke-width:2px
     style Controls fill:#82E0AA,stroke:#000,stroke-width:2px
-    Reconnaissance[Reconnaissance] -->|Identify Solari Health 360 app| Weaponization[Weaponization]
-    Weaponization[Weaponization] -->|Craft exploit for known vulnerabilities| Delivery[Delivery]
+    Reconnaissance[Reconnaissance] -->|Identify Solari Health 360 app| Weaponisation[Weaponisation]
+    Weaponisation[Weaponisation] -->|Craft exploit for known vulnerabilities| Delivery[Delivery]
     Delivery[Delivery] -->|Deploy phishing campaign targeting app users| Exploitation[Exploitation]
     Exploitation[Exploitation] -->|Trick users into downloading malware| Installation[Installation]
     Installation[Installation] -->|Gain access to app backend| Command_Control[Command and Control]

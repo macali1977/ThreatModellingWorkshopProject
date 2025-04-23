@@ -21,7 +21,7 @@ graph TD
     T3([Repudiation: Deny Transactions]) -.-> H
     T4([Information Disclosure: Data Leak]) -.-> F
     T5([Denial of Service: Overload Server]) -.-> B
-    T6([Elevation of Privilege: Unauthorized Access]) -.-> I
+    T6([Elevation of Privilege: Unauthorised Access]) -.-> I
     %% Mitigations
     M1([Mitigation: Strong Authentication]) --> T1
     M2([Mitigation: HTTPS]) --> T2
